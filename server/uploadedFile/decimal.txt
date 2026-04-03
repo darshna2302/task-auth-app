@@ -1,0 +1,14 @@
+x.PowerFactor = JSON.stringify(x.PowerFactor);
+            x.Voltage_32_7_0=JSON.stringify(x.Voltage_32_7_0);
+            x.Voltage_52_7_02= JSON.stringify(x.Voltage_52_7_02);
+            x.Voltage_72_7_02= JSON.stringify(x.Voltage_72_7_02);
+            x.Current_31_7_0= JSON.stringify(x.Current_31_7_0);
+            x.Current_51_7_0= JSON.stringify(x.Current_51_7_0);
+            x.Current_71_7_0= JSON.stringify(x.Current_71_7_0);
+            x.VoltageV1ClampMeter = JSON.stringify(x.VoltageV1ClampMeter);
+            x.VoltageV2ClampMeter = JSON.stringify(x.VoltageV2ClampMeter);
+            x.VoltageV3ClampMeter = JSON.stringify(x.VoltageV3ClampMeter);
+            x.CurrentV1ClampMeter = JSON.stringify(x.CurrentV1ClampMeter);
+            x.CurrentV2ClampMeter = JSON.stringify(x.CurrentV2ClampMeter);
+            x.CurrentV3ClampMeter = JSON.stringify(x.CurrentV3ClampMeter);
+            x.LocationProvider= JSON.stringify(x.LocationProvider);

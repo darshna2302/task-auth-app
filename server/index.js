@@ -18,7 +18,7 @@ connectDB();
 const app=express();
 const port=process.env.PORT || 4000;
 
-const allowedOrigins = [process.env.FRONTEND_URL, 'http://localhost:5173', 'http://localhost:5174', 'http://localhost:5175','http://localhost:3001'];
+const allowedOrigins = [process.env.FRONTEND_URL, 'http://localhost:5173', 'http://localhost:5174', 'http://localhost:5175','http://localhost:3001','https://task-auth-frontend.onrender.com'];
 console.log("Allowed Origins:", allowedOrigins);
 
  //all req parsed as json

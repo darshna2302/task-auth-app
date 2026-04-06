@@ -28,7 +28,7 @@ const port=process.env.PORT || 4000;
 //middleware
 app.use(cors({
     credentials: true, 
-    origin:true
+    origin: true
 }));
  //all req parsed as json
 app.use(express.urlencoded({ extended: true }));

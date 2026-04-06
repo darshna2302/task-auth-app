@@ -638,3 +638,15 @@ export const deleteTask = (req,res)=>{
         });
     });
 }
+
+
+export const dbTest = (req,res)=>{
+  db.query("select 1",(err,result)=>{
+    if(err){
+      return res.json({success:false,message:err.message});
+    }
+    else{
+      return res.json({success:true,message:"Database connection successful"});
+    }
+  })
+}

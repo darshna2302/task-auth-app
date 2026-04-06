@@ -1,10 +1,11 @@
 import express from "express"
-import { createTask, deleteTask, forgotPassword, getAllTask, getUploadedFile, getVerifyOtp, isAuthenticated, login, logout, register, resetPassword, resetPasswordWithOtp, sendResetOtp, sendVerifyOtp, singleFileUpload, updateTask} from "../controllers/authController.js";
+import { createTask, dbTest, deleteTask, forgotPassword, getAllTask, getUploadedFile, getVerifyOtp, isAuthenticated, login, logout, register, resetPassword, resetPasswordWithOtp, sendResetOtp, sendVerifyOtp, singleFileUpload, updateTask} from "../controllers/authController.js";
 import userAuth from "../middleware/userAuth.js";
 import upload from "../config/multer.js"
 
 
 const authRouter=express.Router();
+authRouter.get("/dbtest",dbTest);
 authRouter.post("/register",register);
 authRouter.post("/login",login);
 authRouter.post("/logout",logout);

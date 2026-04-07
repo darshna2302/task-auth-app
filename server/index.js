@@ -24,7 +24,7 @@ const port=process.env.PORT || 4000;
 //   credentials: true,
 //   origin: true
 // }));
-
+app.set("trust proxy", 1);
 //middleware
 app.use(cors({
     credentials: true, 

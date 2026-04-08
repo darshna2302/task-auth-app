@@ -25,6 +25,7 @@ const Header = () => {
         <div className='mt-8 flex'>
         <button className='border border-gray-500 rounded-full px-8 py-2.5 hover:bg-gray-100 transition-all mr-5' onClick={()=>navigate("/taskForm")}>Create Task</button>
         <button className='border border-gray-500 rounded-full px-8 py-2.5 hover:bg-gray-100 transition-all mr-5' onClick={()=>navigate("/taskTable")}>Task table</button>
+        <button className='border border-gray-500 rounded-full px-8 py-2.5 hover:bg-gray-100 transition-all' onClick={()=>navigate("/grafana-iframe")}>Grafana Iframe</button>
 
         </div>
     </div>

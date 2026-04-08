@@ -12,6 +12,7 @@ import WebsocketStock from './components/WebsocketStock'
 import TaskForm from './StructuredFormat/components/TaskForm'
 import TaskTable from './StructuredFormat/components/TaskTable'
 import AuthLayout from './components/AuthLayout'
+import GrafanaIframe from './components/GrafanaIframe'
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
         <Route path='/stocks' element={<StockSSE/>}/>
         <Route path="/taskForm" element={<AuthLayout><TaskForm/></AuthLayout>}/>
         <Route path='/taskTable' element={<TaskTable />}/>
+        <Route path="/grafana-iframe" element={<GrafanaIframe/>}/>
       </Routes>
     </div>
   )
